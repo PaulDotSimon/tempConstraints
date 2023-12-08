@@ -13,11 +13,6 @@ class ButtonsView: UIView{
         SwitchButton(width: 100, height: 45, backgroundColor: .green, title: "Add")
     ]
     init(){
-//        buttonsArray =    [
-//                SwitchButton(width: 100, height: 45, backgroundColor: .red, title: "Delete"),
-//                SwitchButton(width: 100, height: 45, backgroundColor: .blue, title: "Switch"),
-//                SwitchButton(width: 100, height: 45, backgroundColor: .green, title: "Add")
-//            ]
         deleteButton = buttonsArray[0]
         switchButton = buttonsArray[1]
         addButton = buttonsArray[2]
